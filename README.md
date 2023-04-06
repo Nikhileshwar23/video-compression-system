@@ -33,7 +33,7 @@ To run this program, you need the following:
     python example_video_compression.py
     
 
-4. Follow the on-screen instructions to compress or decompress data.
+4. Follow the on-screen instructions to compress data.
 
 ## Usage
 
@@ -41,11 +41,7 @@ This program can be used to compress data such as videos(.mp4 files).
 
 1. Compressing Data
 
-    To compress data, select the "Compress" option from the main menu. Enter the path of the file you want to compress, and the program will compress the data and save it to a new file with the ".huf" extension.
-
-2. Decompressing Data
-
-    To decompress data, select the "Decompress" option from the main menu. Enter the path of the compressed file (with the ".huf" extension), and the program will decompress the data and save it to a new file with the ".txt" extension.
+To compress data, Run the python code. Enter the path of the file you want to compress in the example_video_compression.py code as an input, and the program will compress the data and save the file as pos_video.mp4 in the new folder as compressed_video.
 
 ## Contributing
 

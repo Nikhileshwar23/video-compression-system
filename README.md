@@ -5,8 +5,11 @@
 This is a simple Python program for data compression.
 
 ## Introduction
+The main algorithm used in the code is the video compression algorithm, which is achieved using the `compress_video()` and `compress_videos_from_dir()` methods of the `Video` class provided by the Katna package.
 
-This program uses the Huffman coding technique to compress data. Huffman coding is a lossless data compression technique. The algorithm works by assigning variable-length codes to input characters, where the code words are shorter for the characters that occur more frequently in the input string.
+The video compression technique used in this code is not explicitly stated, but the Katna package documentation suggests that it uses a combination of different algorithms, including Huffman coding, Discrete Cosine Transform (DCT), and Motion Compensation. DCT is a popular algorithm used in video compression to transform image data from the spatial domain to the frequency domain, while Motion Compensation is used to reduce redundancy in consecutive frames by exploiting the similarity between them.
+
+Note that the specific algorithms and techniques used by the Katna package are not explicitly stated in the code, and the package may use multiple algorithms in conjunction to achieve efficient video compression.
 
 ## Requirements
 
